@@ -1,9 +1,12 @@
+/*frequency of the array elements*/
 #include <stdio.h>
  
 int main()
 {
 	int a[10], F[10], i, j, m, n;
+	printf("lenth of array");
 	scanf("%d", &n);
+	printf("enter the elements"); 
 	for (i = 0; i < n; i++)
 	{
     	scanf("%d", &a[i]);
