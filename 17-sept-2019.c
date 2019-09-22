@@ -1,3 +1,4 @@
+/*print the pattern */
 #include <stdio.h>
 int main()
 {
