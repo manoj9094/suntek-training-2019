@@ -1,3 +1,4 @@
+/*to check a substring in string*/
 #include<stdio.h>
  
 int main()
