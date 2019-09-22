@@ -1,3 +1,4 @@
+/* to print pattern of the numbers*/
 #include <stdio.h>
 
 int main()
