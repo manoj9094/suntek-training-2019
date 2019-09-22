@@ -1,0 +1,23 @@
+#include <stdio.h>
+ 
+int main()
+{
+   char a[10], s[10];
+   int p, ln, c = 0;
+ 
+   printf("enter a string\n");
+   gets(a);
+ 
+   printf("position and lenght\n");
+   scanf("%d%d", &p, &ln);
+ 
+   while (c < ln) {
+      s[c] = a[p+c-1];
+      c++;
+   }
+   s[c] = '\0';
+ 
+   printf("substring is \"%s\"\n", s);
+ 
+   return 0;
+}
