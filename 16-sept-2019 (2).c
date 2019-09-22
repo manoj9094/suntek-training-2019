@@ -1,4 +1,4 @@
-
+/* program to find the occurance of a given number*/
 #include <stdio.h>
 
 int main()
