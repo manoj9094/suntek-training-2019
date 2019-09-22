@@ -2,7 +2,7 @@
  
 int main()
 {
-    char s[80], s1[10];
+    char s[20], s1[10];
     int c1 = 0, c2 = 0, i, j,k;
  
     printf("Enter a string:");
